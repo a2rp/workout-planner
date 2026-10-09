@@ -1,142 +1,53 @@
-# Workout Planner
+![Project screenshot](./screenshot.png)
 
-A clean and lightweight workout planning application built with React, Vite and styled-components.
+# Repbook: Workout Planner
 
-Workout Planner helps you create workouts, organize exercises, track workout status and manage your training plan directly in the browser.
+Repbook is a personal space to shape training sessions, keep exercise details together, and track which plans you have completed. Your workouts stay in this browser, so you can plan without creating an account.
 
-![Workout Planner screenshot](./screenshot.png)
+**Project repository:** https://github.com/a2rp/workout-planner
+**Deployed site:** https://a2rp.github.io/workout-planner/
 
-## Features
+## What you can do
 
-- Create and edit workouts
-- Add multiple exercises to each workout
-- Track sets, reps, weight and exercise time
-- Mark workouts as Planned or Done
-- Duplicate workouts
-- Delete workouts with confirmation
-- Search workouts
-- Filter by status and category
-- Sort workouts
-- Workout statistics
-- Responsive dark interface
-- Local browser storage
-- No backend or account required
+- Create and edit workouts with a date, category, duration, status, and notes.
+- Add multiple exercises with sets, reps, weight, and time.
+- Mark plans as completed or planned, and duplicate a workout for another day.
+- Search workout and exercise names, filter by category or status, and sort the list.
+- Review total, planned, and completed workouts with a completion rate.
+- Remove a workout with a confirmation dialog.
 
-## Tech Stack
+## How to use it
 
-- React
-- Vite
-- JavaScript
-- styled-components
-- LocalStorage
+Choose **Build a workout**, enter the session details, and add any exercises you want to keep together. Save the session as planned or completed. Use the workout library controls to search, filter, and sort the plans. You can edit, duplicate, change status, or remove any saved workout.
 
-## Project Structure
+## Data and privacy
 
-```text
-src
-├── components
-│   ├── about
-│   ├── ConfirmModal
-│   ├── EmptyState
-│   ├── Footer
-│   ├── Header
-│   ├── scrollToTopButton
-│   ├── Stats
-│   ├── WorkoutCard
-│   ├── WorkoutForm
-│   ├── WorkoutList
-│   └── workoutPlanner
-├── constants
-│   └── workoutConstants.js
-├── hooks
-│   └── useLocalStorage.js
-├── utils
-│   └── workoutUtils.js
-├── App.jsx
-├── index.css
-└── main.jsx
-```
+Workout details are stored in local storage in this browser. Earlier workout records from this app are migrated when Repbook first opens. Data is not sent to a server, and clearing browser site data removes saved workouts. Repbook is a planning log and does not provide individualized training or medical advice.
 
-## Getting Started
+## Run and check locally
 
-Clone the repository:
+Install dependencies with `npm install`, then start the Vite development server with `npm run dev`. Run `npm run lint` for ESLint and `npm run build` for a production build. Run `npm run deploy` to publish the `dist` folder to the `gh-pages` branch.
 
-```bash
-git clone https://github.com/a2rp/workout-planner.git
-```
+## Future improvements
 
-Open the project:
+Ideas only. These are not implemented yet:
 
-```bash
-cd workout-planner
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Build the application:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
-## Data Storage
-
-Workout data is stored locally in the browser using LocalStorage.
-
-No workout data is sent to a server.
-
-Clearing browser storage may remove saved workout data.
-
-## Deployment
-
-The project is configured for GitHub Pages using:
-
-```text
-/workout-planner/
-```
-
-Build and deployment can be run with:
-
-```bash
-npm run deploy
-```
-
-## Developer
-
-Developed by [Ashish Ranjan](https://www.ashishranjan.net).
+- Add reusable workout templates.
+- Add optional weekly volume and personal record summaries.
+- Add exercise tags and equipment filters.
 
 ## Links
 
-- [Portfolio](https://www.ashishranjan.net)
-- [GitHub](https://github.com/a2rp)
-- [CodePen](https://codepen.io/ash1198)
-- [LinkedIn](https://www.linkedin.com/in/aashishranjan)
-- [Facebook](https://www.facebook.com/theash.ashish)
-- [YouTube](https://www.youtube.com/channel/UCLHIBQeFQIxmRveVAjLvlbQ)
-- [Email](mailto:ash.ranjan09@gmail.com)
+- Portfolio: [https://www.ashishranjan.net](https://www.ashishranjan.net)
+- GitHub: [https://github.com/a2rp](https://github.com/a2rp)
+- CodePen: [https://codepen.io/ash1198](https://codepen.io/ash1198)
+- LinkedIn: [https://www.linkedin.com/in/aashishranjan](https://www.linkedin.com/in/aashishranjan)
+- Facebook: [https://www.facebook.com/theash.ashish/](https://www.facebook.com/theash.ashish/)
+- YouTube: [https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1](https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1)
+- Email: [mailto:ash.ranjan09@gmail.com](mailto:ash.ranjan09@gmail.com)
 
 ## Support
 
-- [Support](https://a2rp-donation-page.netlify.app/)
-- [Buy Me a Coffee](https://buymeacoffee.com/a2rp)
-- [Patreon](https://www.patreon.com/a2rp)
-
-## License
-
-This project is licensed under the MIT License.
+- Support: [https://a2rp-donation-page.netlify.app/](https://a2rp-donation-page.netlify.app/)
+- Buy Me a Coffee: [https://buymeacoffee.com/ashishranjan](https://buymeacoffee.com/ashishranjan)
+- Patreon: [https://www.patreon.com/ashishranjan](https://www.patreon.com/ashishranjan)
