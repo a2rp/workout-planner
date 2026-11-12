@@ -22,7 +22,7 @@ Choose **Build a workout**, enter the session details, and add any exercises you
 
 ## Data and privacy
 
-Workout details are stored in local storage in this browser. Earlier workout records from this app are migrated when Repbook first opens. Data is not sent to a server, and clearing browser site data removes saved workouts. Repbook is a planning log and does not provide individualized training or medical advice.
+Workout details are stored in local storage in this browser. Earlier workout records from this app are migrated when Repbook first opens. Data is not sent to a server, and clearing browser site data removes saved workouts. If browser storage is unavailable or full, Repbook warns that the latest changes may not persist after a reload. Repbook is a planning log and does not provide individualized training or medical advice.
 
 ## Run and check locally
 
